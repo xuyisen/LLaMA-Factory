@@ -715,8 +715,8 @@
     },
     "folder": "python"
   },
-  "refactoring_commons_io": {
-    "file_name": "commons-io_refactoring_training_set.json",
+  "refactoring": {
+    "file_name": "refactoring_training_set.json",
     "columns": {
       "prompt": "instruction",
       "query": "input",
