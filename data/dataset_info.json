@@ -714,5 +714,13 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "refactoring_commons_io": {
+    "file_name": "commons-io_refactoring_training_set.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
   }
 }
