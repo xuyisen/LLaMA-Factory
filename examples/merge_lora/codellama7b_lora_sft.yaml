@@ -1,8 +1,8 @@
 ### model
-model_name_or_path: saves/codellama7b/full/sft
+model_name_or_path: codellama/CodeLLaMA-7b-hf
+adapter_name_or_path: saves/codellama7b/lora/sft
 template: alpaca
 trust_remote_code: true
-
 ### export
 export_dir: output/codellama7b_full_sft
 export_size: 5
