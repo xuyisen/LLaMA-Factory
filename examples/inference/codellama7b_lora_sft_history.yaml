@@ -1,0 +1,5 @@
+model_name_or_path: /home/x_yisen/codes/LLaMA-Factory/output/codellama7b_full_sft
+adapter_name_or_path: saves/codellama7b/lora/fine_tune_refactoring
+template: alpaca
+infer_backend: huggingface  # choices: [huggingface, vllm, sglang]
+trust_remote_code: true
