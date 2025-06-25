@@ -722,5 +722,25 @@
       "query": "input",
       "response": "output"
     }
+  },
+   "fine_tune_refactoring": {
+    "file_name": "fine_tune_training_set.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": "history"
+    }
+  },
+  "fine_tune_refactoring_reject": {
+    "file_name": "fine_tune_training_set_reject.json",
+    "ranking": true,
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
   }
+  
 }
