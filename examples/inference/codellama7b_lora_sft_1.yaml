@@ -1,5 +1,5 @@
-model_name_or_path: codellama/CodeLLaMA-7b-hf
-adapter_name_or_path: saves/codellama7b/lora/reward
+model_name_or_path: codellama/CodeLLaMA-7b-Instruct-hf
+adapter_name_or_path: saves/codellama7b/lora/sft_1
 template: alpaca
 infer_backend: huggingface  # choices: [huggingface, vllm, sglang]
 trust_remote_code: true

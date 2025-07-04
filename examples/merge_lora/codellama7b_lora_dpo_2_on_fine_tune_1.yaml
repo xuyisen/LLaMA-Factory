@@ -1,0 +1,10 @@
+### model
+model_name_or_path: /home/x_yisen/codes/LLaMA-Factory/output/codellama7b_full_sft
+adapter_name_or_path: saves/codellama7b/lora/dpo_2_on_fine_tune_1
+template: alpaca
+trust_remote_code: true
+### export
+export_dir: output/codellama7b_dpo_2_on_fine_tune_1
+export_size: 5
+export_device: cpu  # choices: [cpu, auto]
+export_legacy_format: false
