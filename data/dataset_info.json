@@ -741,6 +741,30 @@
       "chosen": "chosen",
       "rejected": "rejected"
     }
+  },
+  "fine_tune_refactoring_dpo": {
+    "file_name": "fine_tune_training_set_conversation.json",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "fine_tune_refactoring_kto": {
+    "file_name": "fine_tune_training_set_kto.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "kto_tag": "label"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
   }
   
 }
