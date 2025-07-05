@@ -8,29 +8,29 @@ use_unsloth: True
 enable_liger_kernel: True
 
 ### method
-stage: kto
+stage: dpo
 do_train: true
 finetuning_type: lora
 lora_rank: 8
 lora_target: all
 pref_beta: 0.1
+pref_loss: sigmoid
 
 ### dataset
-dataset: fine_tune_refactoring_kto
-template: alpaca
+dataset: fine_tune_refactoring_dpo
+template: deepseek
 cutoff_len: 2048
-max_samples: 1000
 overwrite_cache: true
-preprocessing_num_workers: 16
-dataloader_num_workers: 4
+preprocessing_num_workers: 8
 
 ### output
-output_dir: saves/deepseekcoder13b/lora/kto_instruct
+output_dir: saves/deepseekcoder16b/qlora/dpo_instruct
 logging_steps: 10
-save_steps: 500
+save_steps: 100
 plot_loss: true
 overwrite_output_dir: true
-report_to: none  # choices: [none, wandb, tensorboard, swanlab, mlflow]
+save_only_model: false
+report_to: none
 
 ### train
 per_device_train_batch_size: 1

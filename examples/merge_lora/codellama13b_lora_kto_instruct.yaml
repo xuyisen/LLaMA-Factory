@@ -1,0 +1,10 @@
+### model
+model_name_or_path: codellama/CodeLLaMA-13b-Instruct-hf
+adapter_name_or_path: saves/codellama13b/lora/kto
+template: alpaca
+trust_remote_code: true
+### export
+export_dir: output/codellama13b_lora_kto_instruct
+export_size: 5
+export_device: cpu  # choices: [cpu, auto]
+export_legacy_format: false

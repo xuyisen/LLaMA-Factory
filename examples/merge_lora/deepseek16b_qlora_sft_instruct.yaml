@@ -1,0 +1,10 @@
+### model
+model_name_or_path: deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct
+adapter_name_or_path: saves/deepseekcoder13b/qlora/sft_instruct
+template: alpaca
+trust_remote_code: true
+### export
+export_dir: output/deepseekcoder16b_qlora_sft_instruct
+export_size: 5
+export_device: cpu  # choices: [cpu, auto]
+export_legacy_format: false
